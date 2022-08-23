@@ -1,0 +1,390 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .container-box {
+    display: flex;
+    align-items: center;
+    padding-top: 44px;
+    justify-content: space-between;
+  }
+
+  .header-box {
+    display: flex;
+    align-items: center;
+  }
+
+  .coffee-icon {
+    margin-left: 8px;
+  }
+
+  .nav-list {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-item {
+    margin-left: 32px;
+  }
+
+  .nav-item:nth-child(1) {
+    margin-left: 0;
+  }
+
+  .nav-link {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888f;
+  }
+
+  #nav-link-id {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #333d4b;
+  }
+
+  .wrap-box {
+    background-image: url(../images/Bitmap.png);
+    margin-top: 50px;
+    width: 1240px;
+    height: 600px;
+    /* background-size: contain; */
+    border-radius: 10px;
+  }
+
+  .wrap-part {
+    /* margin-top: 100px; */
+    padding-top: 50px;
+    padding-left: 86px;
+  }
+
+  .title {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #fefcf7;
+    width: 493px;
+  }
+
+  .paragirif {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fefcf7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    width: 445px;
+  }
+
+  .header-btn {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #fefcf7;
+    margin-top: 56px;
+    background: #66d2cf;
+    border-radius: 6px;
+    padding: 15px 30px;
+    border: none;
+  }
+
+  .header-btn:hover {
+    background: #0000ff;
+    color: #000;
+  }
+
+  .header-btn:active {
+    background: #66d2cf;
+    color: #fefcf7;
+  }
+
+  /* MAIN */
+
+  .main-container {
+    margin-top: 95px;
+    height: 500px;
+    position: relative;
+  }
+
+  .tittle-h2 {
+    font-size: 190px;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+    text-align: center;
+  }
+
+  .main-container-box {
+    display: flex;
+    margin-left: 85px;
+    position: absolute;
+    top: 120px;
+  }
+
+  .main-box {
+    width: 255px;
+    margin-left: 30px;
+  }
+
+  .main-box:nth-child(1) {
+    margin-left: 0;
+  }
+
+  .main-title {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #333d4b;
+    width: 255px;
+    margin-top: 72px;
+  }
+
+  .main-paragirif {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #333d4b;
+    width: 255px;
+    margin-top: 24px;
+  }
+
+  /* SECTION-PART */
+
+  .section-part {
+    background-color: #333d4b;
+    height: 577px;
+  }
+
+  .wrapper-container {
+    margin-top: 188px;
+    position: relative;
+  }
+
+  .subtitle {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #fefcf7;
+    width: 329px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 112px;
+  }
+
+  .text {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #fefcf7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+  }
+
+  .inner {
+    display: flex;
+    align-items: center;
+    margin-top: 86px;
+    margin-left: 85px;
+    position: absolute;
+    margin-top: 86px;
+  }
+
+  .inner-part {
+    background: #0e8784;
+    border-radius: 8px;
+    margin-left: 30px;
+    width: 350px;
+  }
+
+  .inner-part:nth-child(1) {
+    margin-left: 0;
+  }
+
+  .icon {
+    margin-left: 40%;
+    margin-top: 72px;
+  }
+
+  .inner-title {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #fefcf7;
+    margin-top: 56px;
+  }
+
+  .inner-text {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #fefcf7;
+    width: 255px;
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* SECTION */
+
+  .box-grid {
+    margin-top: 351px;
+    padding-left: 85px;
+  }
+
+  .grid-paragirif {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888f;
+  }
+
+  .grid-container {
+    display: flex;
+  }
+
+  .grid-part {
+    margin-left: 95px;
+  }
+
+  .grid-part:nth-child(1) {
+    margin-left: 0;
+  }
+
+  span {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #fdd6ba;
+  }
+
+  .grid-title {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333d4b;
+    width: 210px;
+    margin-top: 38px;
+  }
+
+  .grid-text {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333d4b;
+    width: 285px;
+    margin-top: 42px;
+  }
+
+  /* FOOTER-PART */
+
+  .footer-part {
+    background: #2c343e;
+    margin-top: 200px;
+  }
+
+  .footer-container-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 47px 85px;
+  }
+
+  .footer-part-box {
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-list {
+    display: flex;
+    margin-left: 102px;
+  }
+
+  .footer-item {
+    margin-left: 33px;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888f;
+  }
+
+  #footer-id {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #fefcf7;
+  }
+
+  .footer-item:nth-child(1) {
+    margin-left: 0;
+  }
+
+  .footer-icon {
+    margin-left: 24px;
+  }
+
+  .footer-icon:nth-child(1){
+    margin-left: 0;
+  }
